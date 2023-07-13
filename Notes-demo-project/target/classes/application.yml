@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: notes
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
